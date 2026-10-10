@@ -117,7 +117,6 @@ vendor/lib64/btaudio_offload_if.so
 vendor/lib64/libbluetooth_audio_session_aidl_qti.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
-vendor/lib64/libbt-hidlclient.so
 vendor/lib64/vendor.qti.hardware.bluetooth.btavsprovider-V1-ndk.so
 
 # C2PA
@@ -164,14 +163,6 @@ vendor/lib64/libtaautoload.so
 vendor/lib/rfsa/adsp/chre_qsh_shim.so
 vendor/lib/rfsa/adsp/nearby.napp_header
 vendor/lib/rfsa/adsp/nearby.so
-
-# Data
-vendor/lib64/libTxPwrJni.so
-
-# DCF
-vendor/lib64/libDcfClientSensor.so
-vendor/lib64/libDcfHalFramework.so
-vendor/lib64/libDcfHalLogger.so
 
 # Diag
 system/lib64/vendor.qti.diaghal-V1-ndk.so:system_ext/lib64/vendor.qti.diaghal-V1-ndk.so
@@ -740,7 +731,6 @@ vendor/etc/qlm_config.xml
 vendor/lib64/libQshQmiIDL.so
 vendor/lib64/libQshSession.so
 vendor/lib64/libqsh.so
-vendor/lib64/libqsh_ble_pb.so
 vendor/lib64/libsensinghubapi-prop.so
 vendor/lib64/libsensinghubapi.so
 vendor/lib64/libsensinghubsession.so
@@ -943,7 +933,6 @@ vendor/lib64/libvppclient.so
 vendor/lib64/libvppcommon.so
 vendor/lib64/libvpphvx.so
 vendor/lib64/libvpplibrary.so
-vendor/lib64/libvpptestutils.so
 vendor/lib64/vendor.qti.hardware.vpp-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
