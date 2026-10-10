@@ -374,6 +374,7 @@ my_product/priv-app/HotwordEnrollmentYGoogleHEXAGON_WIDEBAND.apk:product/priv-ap
 vendor/lib64/libqtiidentitycredential.so
 
 # Kernel
+vendor/bin/init.kernel.init_boot-memory.sh
 vendor/bin/init.kernel.post_boot-alor.sh
 vendor/bin/init.kernel.post_boot-alor_5_1.sh
 vendor/bin/init.kernel.post_boot-alor_5_2.sh
