@@ -20,14 +20,11 @@ vendor/lib64/libadsprpc.so
 vendor/lib64/libloadalgo_stub.so
 
 # ADSP modules
-vendor/lib/rfsa/adsp/chre_qsh_shim.so
 vendor/lib/rfsa/adsp/libadsp_jpege_skel.so
 vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
 vendor/lib/rfsa/adsp/libhme_dsp_skel.so
 vendor/lib/rfsa/adsp/libmctfengine_skel.so
 vendor/lib/rfsa/adsp/libmlawbpostproc_dsp_skel.so
-vendor/lib/rfsa/adsp/nearby.napp_header
-vendor/lib/rfsa/adsp/nearby.so
 
 # Audio
 vendor/etc/models/acd/conv_detection.eai
@@ -68,7 +65,6 @@ vendor/lib64/liblistensoundmodel2vendor.so
 vendor/lib64/liblistensoundmodelaidl.so
 vendor/lib64/libmcs.so
 vendor/lib64/libopluspal.so
-vendor/lib64/libpal_net_if.so
 vendor/lib64/libqasr.so
 vendor/lib64/libqtigefar.so;DISABLE_DEPS
 vendor/lib64/libsession_ar.so
@@ -80,7 +76,6 @@ vendor/lib64/libsession_voice.so
 vendor/lib64/libsession_voice_config.so
 vendor/lib64/libstream_compress.so
 vendor/lib64/libstream_pcm.so
-vendor/lib64/libtensorflowlite_c_qcom.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V2-ndk.so
 vendor/lib64/vendor.qti.hardware.qasr-V3-ndk.so
@@ -91,43 +86,39 @@ vendor/lib64/soundfx/libquasar.so
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@aidl-service-qti
 vendor/etc/init/android.hardware.bluetooth@aidl-service-qti.rc
-vendor/etc/vintf/manifest/bttpi-saidl.xml
-vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.bluetooth@aidl-impl-qti.so
-vendor/lib64/hw/vendor.qti.hardware.bttpi-impl.so
-vendor/lib64/libbtnv.so
-vendor/lib64/libsoc_helper.so
-vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so
-
-# Bluetooth (A2DP)
 vendor/etc/vintf/manifest/bcs-ranging.xml
 vendor/etc/vintf/manifest/bluetooth-finder.xml
 vendor/etc/vintf/manifest/bluetooth_hci.xml
 vendor/etc/vintf/manifest/bluetooth_sar.xml
 vendor/etc/vintf/manifest/bt_lmp_event-saidl.xml
-vendor/etc/vintf/manifest/fm_hci.xml
+vendor/etc/vintf/manifest/bttpi-saidl.xml
+vendor/lib64/hw/android.hardware.bluetooth.lmp_event-impl-qti.so
+vendor/lib64/hw/android.hardware.bluetooth.ranging@aidl-impl-qti.so
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
+vendor/lib64/hw/android.hardware.bluetooth@aidl-impl-qti.so
+vendor/lib64/hw/mbedtls_qti.so
+vendor/lib64/hw/qc_bcs_lib.so
+vendor/lib64/hw/vendor.qti.hardware.bluetooth.finder-impl-qti.so
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@aidl-impl.so
+vendor/lib64/hw/vendor.qti.hardware.bttpi-impl.so
+vendor/lib64/libbtnv.so
+vendor/lib64/libsoc_helper.so
+vendor/lib64/vendor.qti.hardware.bluetooth_sar-V1-ndk.so
+vendor/lib64/vendor.qti.hardware.bttpi-V3-ndk.so
+
+# Bluetooth (A2DP)
 vendor/etc/vintf/manifest/manifest_btaudiocoreservices_qti.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.bluetooth.btavsprovider.xml
 vendor/lib64/hw/android.hardware.bluetooth.audio-impl-qti.so
 vendor/lib64/hw/android.hardware.bluetooth.audio_sw.so;DISABLE_DEPS
-vendor/lib64/hw/android.hardware.bluetooth.lmp_event-impl-qti.so
-vendor/lib64/hw/android.hardware.bluetooth.ranging@aidl-impl-qti.so
 vendor/lib64/hw/audio.bluetooth_qti.default.so
-vendor/lib64/hw/mbedtls_qti.so
-vendor/lib64/hw/qc_bcs_lib.so
 vendor/lib64/hw/vendor.qti.hardware.bluetooth.btavsprovider-impl-qti.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth.finder-impl-qti.so
-vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@aidl-impl.so
-vendor/lib64/hw/vendor.qti.hardware.fm-impl.so
 vendor/lib64/btaudio_offload_if.so
 vendor/lib64/libbluetooth_audio_session_aidl_qti.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/vendor.qti.hardware.bluetooth.btavsprovider-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.bluetooth_sar-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.fm-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # C2PA
 vendor/bin/hw/vendor.qti.hardware.c2pa-aidl-service-qti
@@ -168,6 +159,14 @@ vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
 vendor/lib64/libqwes.so
 vendor/lib64/libtaautoload.so
+
+# Context Hub
+vendor/lib/rfsa/adsp/chre_qsh_shim.so
+vendor/lib/rfsa/adsp/nearby.napp_header
+vendor/lib/rfsa/adsp/nearby.so
+
+# Data
+vendor/lib64/libTxPwrJni.so
 
 # DCF
 vendor/lib64/libDcfClientSensor.so
@@ -305,11 +304,20 @@ vendor/lib64/libfastcvopt.so
 # FASTRPC
 vendor/etc/init/vendor.qti.fastrpc.pd-default-config.rc
 
+# FM
+vendor/etc/vintf/manifest/fm_hci.xml
+vendor/lib64/hw/vendor.qti.hardware.fm-impl.so
+vendor/lib64/vendor.qti.hardware.fm-V1-ndk.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so
+
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper-rust-service-qti
 vendor/etc/init/android.hardware.gatekeeper-service-qti.rc
 vendor/etc/vintf/manifest/android.hardware.gatekeeper-service-qti.xml
 vendor/lib64/hw/libqtigatekeeper.so
+
+# GNSS
+vendor/lib64/libpal_net_if.so
 
 # Graphics (Adreno)
 vendor/lib64/egl/eglSubDriverAndroid.so
@@ -466,6 +474,9 @@ odm/etc/init/init.oppo.reserve.rc
 
 # Native public libraries
 vendor/etc/public.libraries.txt
+
+# Neural networks
+vendor/lib64/libtensorflowlite_c_qcom.so
 
 # OPLUS Charger
 odm/bin/hw/gauged
@@ -914,7 +925,6 @@ vendor/lib64/vendor.qti.hardware.qteeconnector-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # Trusted User Interface
-vendor/lib64/libTxPwrJni.so
 vendor/lib64/libcpion.so
 vendor/lib64/libsi.so
 vendor/lib64/libtrustedapploader.so
