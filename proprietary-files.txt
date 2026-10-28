@@ -797,7 +797,6 @@ vendor/etc/sensors/config/qsh_camera_common.json
 vendor/etc/sensors/config/qsh_camera_fairladyExfront_3.json
 vendor/etc/sensors/config/qsh_camera_fairladyfront_3.json
 vendor/etc/sensors/config/qsh_camera_infinitifront_4.json
-vendor/etc/sensors/config/qsh_camera_lafafront_4.json
 vendor/etc/sensors/config/qsh_camera_lighthousefront_1.json
 vendor/etc/sensors/config/qsh_camera_mariofront_3.json
 vendor/etc/sensors/config/qsh_camera_ov32c4c_4.json
