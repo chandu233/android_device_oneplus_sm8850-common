@@ -264,7 +264,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     fstab.qcom.vendor_ramdisk \
     init.class_main.sh \
-    init.kernel.post_boot-alor_default_6_2.sh \
     init.kernel.post_boot-canoe_5_1.sh \
     init.kernel.post_boot-canoe_5_2.sh \
     init.kernel.post_boot-canoe_6_1.sh \

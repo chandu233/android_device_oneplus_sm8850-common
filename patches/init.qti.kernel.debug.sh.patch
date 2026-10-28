@@ -1,0 +1,12 @@
+--- a/init.qti.kernel.debug.sh
++++ b/init.qti.kernel.debug.sh
+@@ -38,9 +38,6 @@
+     "660"|"661"|"704"|"722"|"723"|"743")
+ 	/vendor/bin/sh /vendor/bin/init.qti.kernel.debug-canoe.sh
+ 	;;
+-    "685"|"727")
+-	/vendor/bin/sh /vendor/bin/init.qti.kernel.debug-alor.sh
+-	;;
+      *)
+ 	echo "***WARNING***: Invalid chip family\n\t skipping debug script!!\n"
+ 	;;

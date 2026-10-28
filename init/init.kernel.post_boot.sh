@@ -39,10 +39,6 @@ case "$platformid" in
 		# pass as an argument the number of max clusters supported
 		/vendor/bin/sh /vendor/bin/init.kernel.post_boot-canoe.sh 2
 		;;
-	"685"|"727")
-		# pass as an argument the number of max clusters supported
-		/vendor/bin/sh /vendor/bin/init.kernel.post_boot-alor.sh 2
-		;;
 	*)
 		echo "***WARNING***: Invalid SoC ID\n\t No postboot settings applied!!\n"
 		;;
