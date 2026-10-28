@@ -317,7 +317,6 @@ odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service_uff
 odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc
 odm/etc/vintf/manifest/manifest_oplus_face.xml
 odm/lib64/libstfaceunlockocl_uff.so;DUMMY_SHARED_LIB
-odm/init.oplus.face.rc
 
 # FastCRC
 vendor/lib64/libfastcrc.so
@@ -676,8 +675,6 @@ vendor/lib64/vendor.qti.qspmhal-impl.so
 
 # QTI service tracker
 vendor/bin/hw/vendor.qti.hardware.servicetrackeraidl-service
-vendor/bin/qt-service
-vendor/etc/init/init.qt-service.rc
 vendor/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc
 vendor/etc/vintf/manifest/vendor.qti.hardware.servicetrackeraidl-service.xml
 vendor/lib64/hw/vendor.qti.hardware.servicetrackeraidl-impl.so
@@ -707,14 +704,12 @@ vendor/lib64/vendor.qti.hardware.secureprocessor.device-V1-ndk.so
 # Security
 vendor/bin/hw/android.hardware.security.onekeymint-service-qti
 vendor/bin/hw/android.hardware.security.secretkeeper-service-qti
-vendor/bin/init.qti.keymaster.sh
 vendor/etc/init/android.hardware.security.onekeymint-service-qti.rc
 vendor/etc/init/android.hardware.security.secretkeeper-service-qti.rc
 vendor/etc/vintf/manifest/android.hardware.security.onekeymint-service-qti.xml
 vendor/etc/vintf/manifest/android.hardware.security.secretkeeper-service-qti.xml
 vendor/etc/vintf/manifest/android.hardware.security.secureclock-service-qti.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service-qti.xml
-vendor/etc/android.hardware.security.onekeymint-service-qti.rc
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
