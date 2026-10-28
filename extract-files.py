@@ -86,6 +86,8 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/etc/perf/perfboostsconfig.xml': blob_fixup()
         .regex_replace(r'Enable="false"', r'Enable="true"')
         .patch_file('patches/perfboostsconfig.xml.patch'),
+    'vendor/etc/sensors/config/json.lst': blob_fixup()
+        .patch_file('patches/sensors-json.lst.patch'),
     'vendor/etc/sensors/hals.conf': blob_fixup()
         .regex_replace(r'sensors\.qsh\.so', 'sensors.fusionlight.so'),
     (

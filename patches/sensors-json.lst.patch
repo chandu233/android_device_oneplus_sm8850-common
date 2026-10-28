@@ -1,0 +1,37 @@
+--- a/json.lst
++++ b/json.lst
+@@ -1,6 +1,5 @@
+ kaanapali_ccd_base.json
+ kaanapali_default_sensors.json
+-kaanapali_qrd_default_sensors.json
+ kaanapali_dynamic_sensors.json
+ kaanapali_irq.json
+ kaanapali_power_0.json
+@@ -9,19 +8,12 @@
+ qsh_camera_infinitifront_4.json
+ qsh_camera_lafafront_4.json
+ qsh_camera_lighthousefront_1.json
+-qsh_camera_macanExFront_4.json
+-qsh_camera_macanFront_4.json
+ qsh_camera_fairladyfront_3.json
+ qsh_camera_fairladyExfront_3.json
+ qsh_camera_redalertfront_3.json
+ qsh_camera_mariofront_3.json
+-qsh_camera_starcraftFront_4.json
+-qsh_camera_starcraftExFront_4.json
+-qsh_camera_starcraftrfront_4.json
+ qsh_camera_swangoosefrontmain_3.json
+ qsh_camera_swangoosefrontsub_4.json
+-qsh_camera_u9front_4.json
+-qsh_camera_u9bfront_4.json
+ oplus_camera_aon.json
+ sns_amd.json
+ sns_aont.json
+@@ -52,7 +44,6 @@
+ chre_dynamic_sensors.json
+ molokai_ccd_base.json
+ molokai_default_sensors.json
+-molokai_qrd_default_sensors.json
+ molokai_dynamic_sensors.json
+ molokai_irq.json
+ molokai_power_0.json
