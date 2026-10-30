@@ -66,12 +66,8 @@ vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V2-ndk.so
 
 # Audio (ACDB)
-vendor/etc/acdbdata/haptics_data/tuning_data/haptics_rx_tuning_0_cdp.bin
 vendor/etc/acdbdata/haptics_data/tuning_data/haptics_rx_tuning_0_mtp.bin
-vendor/etc/acdbdata/haptics_data/tuning_data/haptics_rx_tuning_0_qrd.bin
-vendor/etc/acdbdata/haptics_data/tuning_data/haptics_vi_tuning_0_cdp.bin
 vendor/etc/acdbdata/haptics_data/tuning_data/haptics_vi_tuning_0_mtp.bin
-vendor/etc/acdbdata/haptics_data/tuning_data/haptics_vi_tuning_0_qrd.bin
 vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_5.6.0_enpuv6.pmd
 
 # Audio (ASR)
