@@ -456,7 +456,6 @@ vendor/lib64/libqcodec2_cvpfilter.so
 vendor/lib64/libqcodec2_filterbase.so
 vendor/lib64/libqcodec2_hooks.so
 vendor/lib64/libqcodec2_imgtxrfilter.so
-vendor/lib64/libqcodec2_mockfilter.so
 vendor/lib64/libqcodec2_platform.so
 vendor/lib64/libqcodec2_streaminteg_filter.so
 vendor/lib64/libqcodec2_utils.so
