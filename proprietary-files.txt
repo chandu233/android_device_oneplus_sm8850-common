@@ -381,9 +381,7 @@ vendor/etc/init/hexlpservice.rc
 vendor/etc/seccomp_policy/hexlp.policy
 vendor/etc/vintf/manifest/vendor.qti.hardware.hexlp-service.xml
 vendor/lib64/libnspextensioncopyservice.so
-vendor/lib64/libnspextensionfrcservice.so
 vendor/lib64/libnspextensiongenericqnnservice.so
-vendor/lib64/libnspextensionsuperresolutionservice.so
 vendor/lib64/libnspframework.so
 vendor/lib64/vendor.qti.hardware.hexlp-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.hexlp-V2-ndk.so
@@ -451,7 +449,6 @@ vendor/lib64/libqc2audio_hwaudiocodec.so
 vendor/lib64/libqc2audio_platform.so
 vendor/lib64/libqc2audio_swaudiocodec.so
 vendor/lib64/libqc2audio_utils.so
-vendor/lib64/libqc2vppfilter.so
 vendor/lib64/libqcodec2_base.so
 vendor/lib64/libqcodec2_basecodec.so
 vendor/lib64/libqcodec2_core.so
@@ -910,7 +907,6 @@ vendor/lib64/libvideoutils.so
 vendor/lib64/qti.video.utils.videobufferlayout.so
 
 # VPP
-vendor/lib64/libvpphvx.so
 vendor/lib64/vendor.qti.hardware.vpp-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
